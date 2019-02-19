@@ -32,7 +32,7 @@ namespace что_то_связанное_с_гитом
         }
         public void DDD()
         {
-            Console.WriteLine("");
+            Console.WriteLine(":)");
         }
     }
 }
