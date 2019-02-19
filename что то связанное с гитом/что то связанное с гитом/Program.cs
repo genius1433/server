@@ -11,6 +11,7 @@ namespace что_то_связанное_с_гитом
         static void Main(string[] args)
         {
             Console.WriteLine("adfasfas");
+            Console.WriteLine(" adssssssvvvvvvvvvvv");
             Console.ReadLine();
         }
     }
