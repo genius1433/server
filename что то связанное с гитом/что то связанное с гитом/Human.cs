@@ -26,6 +26,7 @@ namespace что_то_связанное_с_гитом
         }
         public void Say()
         {
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine(age + " " + Name);
         }
     }
