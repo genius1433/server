@@ -11,7 +11,7 @@ namespace что_то_связанное_с_гитом
         static void Main(string[] args)
         {
             Human human = new Human();
-            human.Name = "vacya";
+            human.Name = "bacya";
             human.Age = -10;
             human.Say();
             Console.ReadLine();
