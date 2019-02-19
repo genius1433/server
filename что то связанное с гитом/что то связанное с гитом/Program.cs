@@ -10,9 +10,12 @@ namespace что_то_связанное_с_гитом
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("adfasfas");
-            Console.WriteLine(" adssssssvvvvvvvvvvv");
+            Human human = new Human();
+            human.Name = "vacya";
+            human.Age = -10;
+            human.Say();
             Console.ReadLine();
+
         }
     }
 }
