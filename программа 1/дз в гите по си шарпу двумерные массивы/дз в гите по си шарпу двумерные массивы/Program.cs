@@ -10,6 +10,46 @@ namespace дз_в_гите_по_си_шарпу_двумерные_массив�
     {
         static void Main(string[] args)
         {
+            Random random = new Random();
+            int n = int.Parse(Console.ReadLine());
+            int m = int.Parse(Console.ReadLine());
+            int[,] mass = new int[n, m];
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < m; j++)
+                {
+                    mass[i, j] =random.Next(2);
+                }
+            }
+            for (int i = 0; 
+                i < n; i++)
+            {
+                for (int j = 0; j < m; j++)
+                {
+                    Console.Write("{0,-10}", mass[i, j]);
+                }
+                Console.WriteLine();
+            }
+            for (int i = 0; i < n; i = i + 2)
+            {
+                for (int j = 0; j < m; j = j + 2)
+                {
+                    if (mass[i,j] == mass[i,j + 1])
+                    {
+                        if (mass[i,j + 1] == mass[i + 1,j])
+                        {
+                            if (mass[i + 1, j] == mass[i + 1, j + 1])
+                            {
+                                Console.WriteLine("NO");
+                            }
+                            else Console.WriteLine("YES");
+                        }
+                        else Console.WriteLine("YES");
+                    }
+                    else Console.WriteLine("YES");
+                }
+            }
+            Console.ReadLine();
         }
     }
 }
