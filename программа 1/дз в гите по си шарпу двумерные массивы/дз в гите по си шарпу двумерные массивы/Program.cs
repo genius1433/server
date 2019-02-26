@@ -44,9 +44,9 @@ namespace дз_в_гите_по_си_шарпу_двумерные_массив�
                             }
                             else Console.WriteLine("YES");
                         }
-                        else Console.WriteLine("YES");
+                        //else Console.WriteLine("YES");
                     }
-                    else Console.WriteLine("YES");
+                    //else Console.WriteLine("YES");
                 }
             }
             Console.ReadLine();
