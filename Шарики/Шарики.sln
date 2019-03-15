@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.438
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Шарики", "Шарики\Шарики.csproj", "{AF31CAE2-908C-4D95-87AB-3730801058A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "исключения НАЧАЛО", "исключения НАЧАЛО\исключения НАЧАЛО.csproj", "{6106ECBE-E9A4-4346-B709-FDE757384D7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{AF31CAE2-908C-4D95-87AB-3730801058A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF31CAE2-908C-4D95-87AB-3730801058A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF31CAE2-908C-4D95-87AB-3730801058A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6106ECBE-E9A4-4346-B709-FDE757384D7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6106ECBE-E9A4-4346-B709-FDE757384D7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6106ECBE-E9A4-4346-B709-FDE757384D7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6106ECBE-E9A4-4346-B709-FDE757384D7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
