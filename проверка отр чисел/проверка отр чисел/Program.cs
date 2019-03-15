@@ -14,23 +14,20 @@ namespace проверка_отр_чисел
             int[] mass = new int[n];
             for (int i = 0; i < mass.Length; i++)
             {
-                mass[i] = int.Parse(Console.ReadLine());
-                if (mass[i] < 0)
+                try
                 {
-                    try
+                    mass[i] = int.Parse(Console.ReadLine());
+                    if (mass[i] < 0)
                     {
                         throw new Exception();
                     }
-                    catch
-                    {
+                }
+                catch
+                {
 
-                        Console.WriteLine("ЭЭЭЭЭЭЭЭЭЭ введи плюс число");
-                        
-
-                    }
+                    Console.WriteLine("ЭЭЭЭЭЭЭЭЭЭ введи плюс число");
                     mass[i] = int.Parse(Console.ReadLine());
                 }
-                
             }
             for (int i = 0; i < mass.Length; i++)
             {
